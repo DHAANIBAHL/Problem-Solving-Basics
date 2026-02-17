@@ -1,0 +1,10 @@
+myList = [5, 1, 9, 3, 14, 9, 7]
+
+# Sort the list (duplicates remain)
+myList.sort()
+
+second_min = myList[1]
+second_max = myList[-2]
+
+print("Second Minimum:", second_min)
+print("Second Maximum:", second_max)
