@@ -1,0 +1,8 @@
+# Second max
+myList = [5, 1, 9, 3, 14, 9, 7]
+
+myList.sort()
+
+sec_max = myList[-2]
+
+print("Second Maximum:", sec_max)
