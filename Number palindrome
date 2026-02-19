@@ -1,0 +1,14 @@
+def isPalindrome(num):
+    og_num = num
+    rev_dig = 0
+
+    while num>0:
+        rev_dig = (num%10) + (rev_dig*10)  
+        num = num//10
+    if rev_dig == og_num:
+        print(f"{og_num} is a palindrome.")
+    else:
+            print(f"{og_num} is not a palindrome.")
+
+num=int(input())
+isPalindrome(num)
