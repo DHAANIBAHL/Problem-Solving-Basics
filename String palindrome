@@ -1,0 +1,16 @@
+def isPalindrome(word_mod):
+    word_mod = word_mod.lower()
+    clean = ""
+    for i in word_mod:
+        if i.isalpha():
+            clean += i
+    rev = clean[::-1]
+    if rev == clean:
+        print(f"{word} is a palindrome.")
+    else:
+        print(f"{word} is not a palindrome.")
+
+
+word = input()
+word_mod = "".join(word.split())
+isPalindrome(word_mod)
