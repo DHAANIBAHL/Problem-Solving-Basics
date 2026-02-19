@@ -1,0 +1,20 @@
+list1 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l']
+
+vowels = ['a', 'e', 'i', 'o', 'u']
+vowel_list = []
+consonant_list = []
+
+for alpha in list1:
+    found = False 
+    
+    for vowel in vowels:
+        if alpha == vowel:
+            vowel_list.append(alpha)
+            found = True
+            break  
+    
+    if not found:
+        consonant_list.append(alpha)
+
+print(f"The vowel alphabets are: {vowel_list}")
+print(f"The consonant alphabets are: {consonant_list}")
