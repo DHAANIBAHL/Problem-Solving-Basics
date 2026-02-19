@@ -1,0 +1,8 @@
+list1 = [10, 25, 30, 45, 50, 80, 10, 30, 90, 10]
+n = len(list1)
+rev_list = []
+
+for i in range(n-1, 0, -1):
+    item = list1[i]
+    rev_list.append(item)
+print(rev_list)
