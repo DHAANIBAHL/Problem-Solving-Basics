@@ -1,0 +1,8 @@
+list1 = [10, 25, 30, 45, 50]
+
+sq = []
+for i in range(len(list1)):
+    num = list1[i] ** 2
+    sq.append(num)
+
+print(sq)
