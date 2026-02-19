@@ -1,0 +1,10 @@
+list1 = [10, 25, 30, 45, 50]
+odd_list= []
+even_list = []
+for num in list1:
+    if num%2 == 0:
+        even_list.append(num)
+    else:
+        odd_list.append(num)
+print(even_list)
+print(odd_list)
