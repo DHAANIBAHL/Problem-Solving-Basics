@@ -1,0 +1,11 @@
+list1 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l']
+
+vowel_list= []
+consonant_list = []
+for alpha in list1:
+    if alpha in vowels:
+        vowel_list.append(alpha)
+    else:
+        consonant_list.append(alpha)
+print(f"The vowel alphabets are: {vowel_list}")
+print(f"The consonant alphabets are: {consonant_list}")
